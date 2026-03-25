@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Generated experiment outputs
+baseline_vector/results.csv
+embedding_baseline/results.csv
+hybrid_matcher/results.csv
