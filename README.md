@@ -103,3 +103,15 @@ My current thinking is:
 
 "Start with OCR/text extraction, use vector similarity to get likely candidates, then use business-field checks to make the final decision and explain the reason."
 
+## Additional architecture doc
+
+For the larger next-stage version of the problem, where:
+
+- files can be PDF, Excel, CSV, image, or Word
+- fields are unknown
+- matching can be `1:1`, `1:M`, `M:1`, or `M:M`
+- matching may happen at document, row, or aggregate level
+
+I added a full design here:
+
+- `FINAL_ARCHITECTURE_README.md`
